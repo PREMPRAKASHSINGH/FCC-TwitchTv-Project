@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: rgba(241, 255, 255, 0.9); }
+
+body {
+  padding-bottom: 40px;
+  font-family: 'Amaranth', sans-serif;
+  background: rgba(241, 169, 160, 0.5); }
+
+#all, #online, #offline {
+  width: 100%; }
+
+.res {
+  padding: 10px 20px;
+  border: 8px solid;
+  border-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  background-color: #FF6766;
+  color: rgba(241, 255, 255, 0.9); }
+
+.res .row:hover {
+  background: #ffa9a0;
+  color: #C82647;
+  border-color: #C82647; }
+  .res .row:hover img {
+    border-color: #C82647; }
+
+.res .row {
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px; }
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid lightgray; }
+
+.name {
+  margin-left: 20px; }
+
+#statusdescription {
+  padding: 15px 0px; }
