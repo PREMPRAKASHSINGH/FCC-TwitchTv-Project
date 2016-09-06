@@ -1,6 +1,6 @@
 var streamapi="https://api.twitch.tv/kraken/streams/";
 var channelapi="https://api.twitch.tv/kraken/channels/";
-var channels=["freecodecamp", "storbeck", "terakilobyte", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","beohoff","ESL_SC2","comster404","brunofin"];
+var channels=["freecodecamp", "storbeck", "terakilobyte", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","beohoff","ESL_SC2","OgamingSC2","comster404","brunofin"];
 
 var allStreamCall=function(streamchannel){
 	var logo,name,game,status,statusdesc,channel_link;
